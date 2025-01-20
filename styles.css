@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+}
+.main {
+    text-align: center;
+}
+.choice {
+    width: 40vw; margin: auto;
+}
+.mainchoice {
+    border: 1px solid rgb(223, 223, 223);
+    width: 42vw;
+    padding: 5vh;
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr {
+    height: 5vh;
+}
+td {
+    padding: 1px;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: white;
+}
+.tick {
+    width: 20%;
+}
+.maintick {
+    background-color: rgb(243, 243, 243);
+}
+.tick2 {
+    background-color: rgb(201, 240, 255);
+    width: 20%;
+    border-left: 3px solid rgb(0, 132, 255);
+    border-right: 3px solid rgb(0, 132, 255);
+}
+#tick21 {
+    border-top: 3px solid rgb(0, 132, 255);
+}
+#tick22 {
+    border-bottom: 3px solid rgb(0, 132, 255);
+}
+#mainheadertick {
+    font-size: 200%;
+}
+#mainfootertick {
+    font-size: 130%;
+}
+#mainheader {
+    height: 10vh;
+    font-size: 150%;
+}
+#mainfooter {
+    height: 14vh;
+}
+#mainfooter b {
+    font-size: 150%;
+}
+#mainfooter button {
+    height: 6vh;
+    width: 6vw;
+    font-size: 100%;
+    text-align: center;
+    margin: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(37, 150, 190);
+    color: white;
+}
+.pricingtable td {
+    border: 0px;
+}
